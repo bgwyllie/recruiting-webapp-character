@@ -1,6 +1,6 @@
 import type { Attributes, Class } from "./types";
 
-export const ATTRIBUTE_LIST = [
+export const ATTRIBUTE_LIST: Array<keyof Attributes> = [
     'Strength',
     'Dexterity',
     'Constitution',
